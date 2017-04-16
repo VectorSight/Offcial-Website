@@ -112,7 +112,7 @@
   }
 </style>
 <template>
-  <div class="project">
+  <div class="project" v-title="'VectorSight | 项目与组件'">
     <h2>项目</h2>
     <div id="projects">
       <project-item beginColor="#1ABB9E" endColor="#3498DB">

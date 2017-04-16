@@ -41,7 +41,7 @@
   }
 </style>
 <template>
-  <div class="coop">
+  <div class="coop" v-title="'VectorSight | 合作伙伴'">
     <h2>我们为他们提供支持</h2>
     <div class="coops">
       <div class="coop-item"><img src="../assets/coop_1.png"></div>

@@ -7,7 +7,7 @@
   }
 </style>
 <template>
-  <div class="about">
+  <div class="about" v-title="'VectorSight | 关于我们'">
     <img src="../assets/about.svg">
   </div>
 </template>

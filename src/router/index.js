@@ -7,8 +7,14 @@ import Coop from '../components/Coop.vue'
 import About from '../components/About.vue'
 
 Vue.use(Router)
+Vue.directive('title', {
+  inserted: function (el, binding) {
+    document.title = binding.value
+  }
+})
 
 export default new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',

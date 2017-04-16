@@ -62,7 +62,7 @@
 </style>
 
 <template>
-  <div class="index">
+  <div class="index" v-title="'VectorSight - 技术驱动为基础，融入态度方得最优解'">
     <div class="landing-box">
       <h2>聚沙成塔，集丝成裘</h2>
       <h3>技术驱动为基础，融入态度方得最优解</h3>
