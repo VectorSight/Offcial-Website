@@ -27,6 +27,19 @@
             text-decoration: none;
             color: #8A8A8A;
             font-size: 14px;
+
+            .active-bar {
+              width: 15px;
+              height: 2px;
+              background-color: #FFFFFF;
+              margin: 2px auto 0 auto;
+            }
+
+            &.router-link-active {
+              .active-bar {
+                background-color: #F87756;
+              }
+            }
           }
         }
       }
@@ -39,10 +52,10 @@
 
     <div class="nav">
       <ul>
-        <li><a href="#">首页</a></li>
-        <li><a href="#">项目</a></li>
-        <li><a href="#">合作</a></li>
-        <li><a href="#">关于</a></li>
+        <li><router-link to="/" exact>首页<div class="active-bar"></div></router-link></li>
+        <li><router-link to="/project">项目<div class="active-bar"></div></router-link></li>
+        <li><router-link to="/coop">合作<div class="active-bar"></div></router-link></li>
+        <li><router-link to="/about">关于<div class="active-bar"></div></router-link></li>
       </ul>
     </div>
   </div>

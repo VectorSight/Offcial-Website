@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <AppHeader></AppHeader>
+    <app-header></app-header>
     <router-view></router-view>
-    <AppFooter></AppFooter>
+    <app-footer></app-footer>
   </div>
 </template>
 
@@ -13,8 +13,8 @@
   export default {
     name: 'app',
     components: {
-      AppHeader,
-      AppFooter
+      'app-header': AppHeader,
+      'app-footer': AppFooter
     }
   }
 </script>
